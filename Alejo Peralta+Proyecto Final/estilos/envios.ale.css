@@ -1,0 +1,183 @@
+.centro1 {
+  color: blue;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro2 {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro3 {
+  color: #539bb8;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro4 {
+  color: blue;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro5 {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro6 {
+  color: #539bb8;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.centro1 {
+  border: blue;
+  border-radius: 15px;
+}
+
+.centro2 {
+  border: black;
+  border-radius: 15px;
+}
+
+.centro3 {
+  border: #539bb8;
+  border-radius: 15px;
+}
+
+.centro4 {
+  border: blue;
+  border-radius: 15px;
+}
+
+.centro5 {
+  border: black;
+  border-radius: 15px;
+}
+
+.centro6 {
+  border: #539bb8;
+  border-radius: 15px;
+}
+
+h1 {
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+ul li {
+  color: chocolate;
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+  list-style: inside;
+}
+
+h2 {
+  color: black;
+  font-weight: normal;
+  font-style: oblique;
+  font-size: 200%;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+  font-weight: bolder;
+  font-size: x-large;
+  font-style: unset;
+  text-align: center;
+}
+
+main {
+  background-position: center;
+  background-image: url(https://static-cse.canva.com/blob/464616/1600w-NKttyGVDAes.jpg);
+  border: solid black;
+}
+
+.subrayado {
+  letter-spacing: 1mm;
+  color: black;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  text-transform: uppercase;
+}
+
+.importante {
+  font-weight: 1000;
+  list-style-position: inside;
+  text-align: left;
+}
+
+.alejo {
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: black;
+}
+
+.ale {
+  color: #d3c6c6;
+  text-align: left;
+  list-style-type: circle;
+}
+
+header {
+  background-image: url(https://static-cse.canva.com/blob/464616/1600w-NKttyGVDAes.jpg);
+  border: double black;
+}
+
+.a {
+  text-align: left;
+  margin: 20px;
+  color: black;
+}
+
+footer {
+  border: dotted black;
+  background-image: -webkit-gradient(linear, left top, right top, from(#645d5d), color-stop(grey), to(#a59797));
+  background-image: linear-gradient(to right, #645d5d, grey, #a59797);
+}
+
+.si {
+  text-transform: capitalize;
+  line-height: 1,6;
+  color: black;
+  border: solid grey;
+  list-style-type: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-label {
+  color: black;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.somos {
+  padding: 20px;
+  font-weight: bold;
+}

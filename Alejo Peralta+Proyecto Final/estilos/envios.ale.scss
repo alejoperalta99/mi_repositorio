@@ -1,0 +1,99 @@
+@import url(./parciales/colores.scss);
+$Listafotos:(centro1, blue)(centro2,black)(centro3,rgb(83, 155, 184)) (centro4,blue)(centro5,black)(centro6,rgb(83,155,184));
+@each $centro, $color in $Listafotos {
+    .#{$centro} {
+        color: $color;
+        font-size: x-large;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+h1{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+ul li{
+    color: chocolate;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    list-style: inside;
+}
+h2{
+    color: $dark;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 200%;
+    text-align: center;
+}
+h3{
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: unset;
+    text-align: center;
+}
+main{
+    background-position: center;
+    background-image: url(https://static-cse.canva.com/blob/464616/1600w-NKttyGVDAes.jpg);
+    border: solid black;
+}
+.subrayado{
+    letter-spacing: 1mm;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-transform: uppercase;
+}
+.importante{
+    font-weight: 1000;
+    list-style-position: inside;
+    text-align: left;
+}
+.alejo{
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: black;
+}
+.ale{
+    color: rgb(211, 198, 198);
+    text-align: left;
+    list-style-type: circle;
+}
+header{
+    background-image: url(https://static-cse.canva.com/blob/464616/1600w-NKttyGVDAes.jpg);
+    border: double black;
+}
+.a{
+    text-align: left;
+    margin: 20px;
+    color: black;
+}
+footer{
+    border: dotted black;
+    background-image: linear-gradient(to right, rgb(100, 93, 93), grey, rgb(165, 151, 151));
+}
+.si{
+    text-transform: capitalize;
+    line-height: 1,6;
+    color: black;
+    border:solid grey;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-label{
+    color: black;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.somos{
+    padding: 20px;
+    font-weight: bold;
+}

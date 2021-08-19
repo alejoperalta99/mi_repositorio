@@ -1,0 +1,148 @@
+$Listafotos: (A, blue) (B,red) (C,gray) (D black);
+
+@each $etiqueta, $color in $Listafotos {
+    .#{$etiqueta} {
+        background-color: $color; 
+        padding: 10px;
+        margin: 20px;
+        height: 150px;
+    }
+}
+.moños{
+    text-align: center;
+}
+.este{
+    font-size: x-large;
+    text-transform: uppercase;
+    .esto__1{
+        color: gray;
+    }
+    .esto__2{
+        color: black;
+    }
+    .esto__3{
+        color: rgb(172, 49, 49);
+    }
+    .esto__4{
+        color: beige;
+    }
+}
+
+
+.hijo{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    justify-content: space-between;
+    background-color: beige;
+}
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-style: italic; 
+    background-image: linear-gradient(to bottom, rgb(194, 123, 72), rgb(218, 177, 90), beige);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    transition: all 5s;
+}
+.padre:hover{
+    height: 400px;
+    width: auto;
+    background-color:cyan;
+}
+
+h1{
+    color:black;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+p{
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+}
+main{
+    background-position: center;
+    border-style: double;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    background-image: linear-gradient(to top, grey, rgb(184, 138, 86));
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    text-align: center;
+    background-color: white;
+    list-style: inside;
+    background-position: right;
+}
+footer{
+    background-color: tomato;
+    padding: 10px;
+    border: solid;
+    background-image: linear-gradient(to left, red, rgb(250, 78, 78), rgb(207, 81, 81));
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+.subrayado{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: 1300;
+}
+.centro{
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+    list-style: inside;
+    text-transform: uppercase;
+    list-style-type: circle;
+}
+img{
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    border: black;
+}
+.a{
+    color: black;
+    margin: 50px;
+}
+header{
+    background-image: url(https://static-cse.canva.com/blob/464616/1600w-NKttyGVDAes.jpg);
+    border: double black;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+.bueno{
+    height: 200px;
+    flex-direction: row;
+}
+.ale{
+    height: 200px;
+    width: 250px;
+}
+
+
+
+

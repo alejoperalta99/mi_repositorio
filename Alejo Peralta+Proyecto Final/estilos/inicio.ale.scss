@@ -1,0 +1,114 @@
+@mixin alejo($coloralejo) {
+    color: $coloralejo;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.alejo__2{
+    @include alejo(gray)
+}
+.alejo_3{
+    @include alejo(black);
+}
+.alejo_4{
+    @include alejo(rgb(201, 87, 87));
+}
+
+@for $i from 1 through 9{
+    .card:nth-child(#{$i}) {
+        background-color: darken($color: rgb(224, 177, 107), $amount: $i);
+    }
+}
+h1{
+    color: gray;
+    font-size: xx-large;
+}
+h2{
+    color: black;
+    font-style: italic;
+}
+ul li{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: beige;
+    text-align: left;
+}
+ul li{
+    list-style-position: inside;
+    list-style: inside;
+}
+.diseñomenu{
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.principal{
+    color: black;
+    text-decoration-line: underline;
+}
+.a{
+    color: black;
+    margin: 20px;
+    line-height: 1.6;
+    font-family: cursive;
+    font-style: italic;
+}
+.alejo{
+    padding: 20px;
+    margin: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.bueno{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+}
+.ale{
+    height: 300px;
+    border-color: black;
+    border-style: double;
+}
+main{
+    background-color: rgb(167, 158, 110);
+}
+.card-link{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+@media (min-width:340px) and (orientation:mobile){
+    main{
+        flex-wrap: wrap;
+        min-height: 250px;
+    }
+}
+.wpp{
+    width: 125px;
+    background-color: green;
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.wpp:hover{
+    color: black;
+    background-color: gray;
+}
+body{
+    background-color: rgb(167, 158, 110) ;
+}

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+.alejo__2 {
+  color: gray;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.alejo_3 {
+  color: black;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.alejo_4 {
+  color: #c95757;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.card:nth-child(1) {
+  background-color: #dfaf67;
+}
+
+.card:nth-child(2) {
+  background-color: #dead63;
+}
+
+.card:nth-child(3) {
+  background-color: #ddaa5e;
+}
+
+.card:nth-child(4) {
+  background-color: #dca85a;
+}
+
+.card:nth-child(5) {
+  background-color: #dca656;
+}
+
+.card:nth-child(6) {
+  background-color: #dba452;
+}
+
+.card:nth-child(7) {
+  background-color: #daa14d;
+}
+
+.card:nth-child(8) {
+  background-color: #d99f49;
+}
+
+.card:nth-child(9) {
+  background-color: #d89d45;
+}
+
+h1 {
+  color: gray;
+  font-size: xx-large;
+}
+
+h2 {
+  color: black;
+  font-style: italic;
+}
+
+ul li {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: beige;
+  text-align: left;
+}
+
+ul li {
+  list-style-position: inside;
+  list-style: inside;
+}
+
+.diseñomenu {
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.principal {
+  color: black;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.a {
+  color: black;
+  margin: 20px;
+  line-height: 1.6;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.alejo {
+  padding: 20px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bueno {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: underline;
+}
+
+.ale {
+  height: 300px;
+  border-color: black;
+  border-style: double;
+}
+
+main {
+  background-color: #a79e6e;
+}
+
+.card-link {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+@media (min-width: 340px) and (orientation: mobile) {
+  main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: 250px;
+  }
+}
+
+.wpp {
+  width: 125px;
+  background-color: green;
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+
+.wpp:hover {
+  color: black;
+  background-color: gray;
+}
+
+body {
+  background-color: #a79e6e;
+}

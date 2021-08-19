@@ -1,0 +1,175 @@
+$festivo:ninguno;
+/*suponiendo que queremos cambiar un color por una fecha importante*/
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ellos{
+    color: black;
+    text-transform: uppercase;
+    line-height: 1,6;
+    .ellos__1{
+        color: black;
+        text-transform: uppercase;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        padding: 10px;
+        margin: 10px;
+        font-size: xx-large;
+    }
+    .esto{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        line-height: 2,0;
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+    }
+    .ellos__2{
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 10px;
+        margin: 10px;
+        font-size: xx-large;
+        text-decoration: underline;
+    }
+    .esto__1{
+        font-size: larger;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive;
+        color: rgb(51, 46, 46);
+        line-height: 1,6;
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .ellos__3{
+        color: rgba(170, 9, 9, 0.904);
+        font-weight: bold;
+        font-size: xx-large;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: underline;
+    }
+    .esto__3{
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+        line-height: 1,6;
+        color: black;
+        font-size: x-large;
+        
+    }
+    .ellos__4{
+        padding: 10px;
+        margin: 10px;
+        font-size: xx-large;
+        text-decoration: underline;
+        color: rgba(170, 9, 9, 0.904);
+    }
+    .esto__4{
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+        color: black;
+        font-size: x-large;
+    }
+}
+body{
+    background-image: linear-gradient(to left, maroon, chocolate, rgb(189, 149, 98));
+
+    @if($festivo==ninguno){
+        background-image: linear-gradient(to left, maroon, chocolate, rgb(189,149,98));
+    }@else if ($festivo==halloween){
+        background-image: linear-gradient(rgb(248, 89, 26),orange, rgb(255, 81, 0));
+    }@else if ($festivo==patria){
+        background-image: linear-gradient(skyblue,white, skyblue);
+    }
+}
+.centro{
+    text-align: left;
+}
+.a{
+    color: black;
+    margin: 20px;
+    line-height: 1.6;
+    font-family: cursive;
+    font-style: italic;
+}
+.d{
+    color: skyblue;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+
+    @if($festivo==ninguno){
+        color: skyblue;
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }@else if ($festivo==halloween){
+        color: red;
+        font-size: x-large;
+        font-weight: bolder;
+    }@else if ($festivo==patria){
+        color: rgb(11, 11, 105);
+        font-size: x-large;
+        font-weight: bolder;
+    }
+}
+.b{
+    color:  black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px;
+
+    @if($festivo==ninguno){
+        color: black;
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }@else if ($festivo==halloween){
+        color: red;
+        font-size: x-large;
+        font-weight: bolder;
+    }@else if ($festivo==patria){
+        color: rgb(11, 11, 105);
+        font-size: x-large;
+        font-weight: bolder;
+    }
+}
+.c{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px;
+
+    @if($festivo==ninguno){
+        color: blue;
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }@else if ($festivo==halloween){
+        color: red;
+        font-size: x-large;
+        font-weight: bolder;
+    }@else if ($festivo==patria){
+        color: rgb(11, 11, 105);
+        font-size: x-large;
+        font-weight: bolder;
+    }
+}
+.introduccion{
+    text-decoration: underline;
+    color: seashell;
+}
